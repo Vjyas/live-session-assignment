@@ -1,0 +1,11 @@
+snows=1
+if snows==1:
+    print('I will go out')
+else:
+    print('I will not ')
+
+rains=8
+if rains==0:
+    print('Frogs will dance')
+else:
+    print('Frogs will not dance')

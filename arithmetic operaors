@@ -1,0 +1,17 @@
+a=3
+b=5
+print(a+b)
+c=10
+d=7
+print(c-d)
+s=40
+f=5
+print(s/f)
+e=80
+g=7
+print(e%g)
+print(b**d)
+print(c//b)
+
+
+

@@ -2,7 +2,7 @@ x=5
 y=3
 x+=y
 print(x)
-x=x-y
+x-=y
 print(x)
 x*=y
 print(x)
@@ -16,9 +16,9 @@ a=8
 b=6
 a+=b
 print(a)
-a=a-b
+a-=b
 print(a)
-a=a*b
+a*=b
 print(a)
 a/=b
 print(a)
@@ -26,7 +26,7 @@ a//=b
 print(a)
 s=5
 j=8
-s=s=j
+s+=j
 print(s)
 s-=j
 print(s)
@@ -38,11 +38,11 @@ s**=j
 print(s)
 v=3
 m=2
-v=v-2
+v-=2
 print(v)
 v-=m
 print(v)
-v=v*3
+v*=3
 print(v)
 v/=m
 print(v)

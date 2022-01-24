@@ -1,0 +1,4 @@
+w={'white','blue','grey','black'}
+print(w)
+v={'kite','ball','bat','kite','stick'}
+print(v)

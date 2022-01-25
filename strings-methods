@@ -1,0 +1,111 @@
+a='welcome'
+x=a.capitalize()
+print(x)
+b='Hello!! This is python.'
+y=b.casefold()
+print(y)
+z=a.center(18)
+print(z)
+t='flowers are beautiful.flowers give fragrance'
+g=t.count('flowers')
+print(g)
+g=t.encode()
+print(g)
+v=b.endswith('.')
+print(v)
+v=t.endswith('.')
+print(v)
+w='w\te\tl\tc\to\tm\te'
+x=w.expandtabs()
+print(x)
+x=t.find('are')
+print(x)
+s='good mark {mark}'
+print(s.format(mark=98))
+x=t.index('give')
+print(x)
+v='cap24'
+x=v.isalnum()
+print(x)
+x=v.isalpha()
+print(x)
+f='98766'
+x=f.isdecimal()
+print(x)
+x=f.isdigit()
+print(x)
+w='good'
+x=w.isidentifier()
+print(x)
+x=t.islower()
+print(x)
+z=t.isnumeric()
+print(z)
+z=w.isprintable()
+print(z)
+r='a'
+z=r.isspace()
+print(z)
+m='Welcome!Hello!!'
+k=m.istitle()
+print(k)
+j='HELLO'
+n=j.isupper()
+print(n)
+o=('q','r','g')
+b='%'.join(o)
+print(b)
+w='parrot'
+x=w.ljust(10)
+print(x,'is red in colour')
+txt='Hii'
+v=txt.lower()
+print(v)
+b='girl'
+x=b.lstrip()
+print('in my class a ',b,'named anu is there')
+word='velcome'
+d=word.maketrans('v','w')
+print(word.translate(d))
+t='bring your glasses'
+x=t.partition('glasses')
+print(x)
+x=t.rfind('you')
+print(x)
+x=t.rindex('bring')
+print(x)
+m=' happy'
+p=m.rjust(10)
+print('you are very',p)
+m='you are very happy.being happy releives stress'
+x=m.rpartition('happy')
+print(x)
+c='blue,green,grey'
+x=c.rsplit(',')
+print(x)
+g='white'
+x=g.rstrip()
+print('colors are beautiful',x,'is not a colour')
+x=m.split()
+print(x)
+v='welcome to our place.\n please have your seat'
+x=v.splitlines()
+print(x)
+x=v.startswith('go')
+print(x)
+c='good'
+x=c.strip()
+print('you are very',c)
+y='hI ALL this ISWelL dONe'
+x=y.swapcase()
+print(x)
+b='all are welcome'
+x=b.upper()
+print(x)
+i='beautiful frame'
+x=i.title()
+print(x)
+r=i.replace('beautiful','lovely')
+print(r)
+h=f.zfill(20)
+print(h)

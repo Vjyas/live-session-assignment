@@ -34,7 +34,7 @@ x=f.isdecimal()
 print(x)
 x=f.isdigit()
 print(x)
-w='good'
+w'good'
 x=w.isidentifier()
 print(x)
 x=t.islower()
@@ -53,7 +53,6 @@ j='HELLO'
 n=j.isupper()
 print(n)
 i='beautiful frame'
-x=i.title()
 print(x)
 r=i.replace('beautiful','lovely')
 print(r)

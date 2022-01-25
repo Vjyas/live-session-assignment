@@ -1,0 +1,23 @@
+def a(x,y):
+    return x+y
+def b(x,y):
+    return x-y
+def c(x,y):
+    return x*y
+def d(x,y):
+    return x/y
+print('select')
+print('a.add\nb.sub\nc.mul\nd.div')
+v=input('choice:')
+num1=int(input('first num:'))
+num2=int(input('second num'))
+if v=='a':
+    print(num1,'+',num2,'=',a(num1,num2))
+elif v=='b':
+        print(num1,'-',num2,'=',b(num1,num2))
+elif v=='c':
+        print(num1,'*',num2,'=',c(num1,num2))
+elif v=='d':
+        print(num1,'/',num2,'=',d(num1,num2))
+else:
+    print('invalid')
